@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-float-dtypes@deno/mod.js';
+import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-float-dtypes@v0.2.2-deno/mod.js';
 ```
 
 #### dtypes()
@@ -86,7 +86,7 @@ var out = dtypes();
 
 ```javascript
 import indexOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@deno/mod.js';
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-float-dtypes@deno/mod.js';
+import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-float-dtypes@v0.2.2-deno/mod.js';
 
 var DTYPES = dtypes();
 
