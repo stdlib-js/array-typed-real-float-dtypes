@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-dtypes": "^0.3.0",
-    "@stdlib/types": "^0.3.2"
+    "@stdlib/types": "^0.4.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-string-array": "^0.2.2",
