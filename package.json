@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-dtypes": "^0.4.0",
+    "@stdlib/array-dtypes": "^0.4.1",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
