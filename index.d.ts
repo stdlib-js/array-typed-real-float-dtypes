@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -16,29 +16,24 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var dt = require( '@stdlib/array-dtypes' );
-
-
-// MAIN //
+import { RealFloatingPointDataType as DataType } from '@stdlib/types/array';
 
 /**
 * Returns a list of typed array real-valued floating-point data types.
 *
-* @returns {StringArray} list of typed array real-valued floating-point data types
+* @returns list of typed array real-valued floating-point data types
 *
 * @example
 * var list = dtypes();
 * // e.g., returns [ 'float32', ... ]
 */
-function dtypes() {
-	return dt( 'real_floating_point' );
-}
+declare function dtypes(): Array<DataType>;
 
 
 // EXPORTS //
 
-module.exports = dtypes;
+export = dtypes;
